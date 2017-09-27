@@ -174,10 +174,11 @@ header {
 }
 
 .serv img {
+    display: inline-block;
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background: url('img/services.png') no-repeat;
+    background: grey url("img/services.png") no-repeat;
 }
 
 .serv .serv-img-1 {
@@ -245,28 +246,33 @@ header {
 }
 
 .photo {     
+    display: inline-block;
     overflow: hidden;
 }
 
 .photo .member-1 {
+    display: inline-block;
     width:260px;
     height:250px;
     background: grey url("img/member1.jpg") no-repeat center top;   
 }
 
 .photo .member-2 {
+    display: inline-block;
     width:260px;
     height:250px;
     background: grey url("img/member2.jpg") no-repeat center top;   
 }
 
 .photo .member-3 {
+    display: inline-block;
     width:260px;
     height:250px;
     background: grey url("img/member3.jpg") no-repeat center top;   
 }
 
 .photo .member-4 {
+    display: inline-block;
     width:260px;
     height:250px;
     background: grey url("img/member4.jpg") no-repeat center top;   
@@ -406,6 +412,7 @@ header {
 }
 
 .work {
+    display: inline-block;
     float:left;
     width: 360px;
     height: 320px;
@@ -461,54 +468,63 @@ header {
 }
 
 .photo .work-1 {
+    display: inline-block;
     width:360px;
     height:320px;
     background: grey url("img/work1.jpg") no-repeat center top;   
 }
 
 .photo .work-2 {
+    display: inline-block;
     width:360px;
     height:320px;
     background: grey url("img/work2.jpg") no-repeat center;   
 }
 
 .photo .work-3 {
+    display: inline-block;
     width:360px;
     height:320px;
     background: grey url("img/work3.jpg") no-repeat center;   
 }
 
 .photo .work-4 {
+    display: inline-block;
      width:360px;
     height:320px;
     background: grey url("img/work4.jpg") no-repeat center;   
 }
 
 .photo .work-5 {
+    display: inline-block;
     width:360px;
     height:320px;
     background: grey url("img/work5.jpg") no-repeat center;   
 }
 
 .photo .work-6 {
+    display: inline-block;
     width:360px;
     height:320px;
     background: grey url("img/work6.jpg") no-repeat center;   
 }
 
 .photo .work-7 {
+    display: inline-block;
     width:360px;
     height:320px;
     background: grey url("img/work7.jpg") no-repeat center;   
 }
 
 .photo .work-8 {
+    display: inline-block;
     width:360px;
     height:320px;
     background: grey url("img/work8.jpg") no-repeat center;   
 }
 
 .photo .work-9 {
+    display: inline-block;
     width:360px;
     height:320px;
     background: grey url("img/work9.jpg") no-repeat center;   
