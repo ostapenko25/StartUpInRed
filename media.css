@@ -1,0 +1,180 @@
+/************************************************/
+
+/*Tablet*/
+@media (min-width: 700px) and (max-width: 1200px) {
+	h1 {
+		font-size: 30px;
+	}
+	
+	h2 {
+		font-size: 22px;
+	}
+	
+	h3 {
+		font-size: 18px;
+	}
+	
+	 p {
+		font-size: 14px !important;
+	}
+	
+	.all-members .member {
+	   width: 400px;	   
+}
+	
+	.member-overlay {
+		display: none;
+	}
+	
+	.member-social {
+		left: 25%;
+		opacity: 1;
+		margin: 0 auto;
+		margin-top: 100px;	
+		margin-left: 20px;
+		background: rgba(0, 0, 0, 0.5);		
+		display: flex;
+		justify-content: center;
+	}
+}
+
+
+/*-------------------------------*/
+
+/*Mobile*/
+@media (max-width: 699px) {
+	.main-menu a {
+		padding: 10 px 20px;
+	}
+	
+	.all-serv {
+	display: flex;
+		flex-direction:  column;
+	justify-content: center;
+		
+}
+
+
+.serv {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	
+
+	
+	h1 {
+		font-size: 35px;
+	}
+	
+	h2 {
+		font-size: 26px;
+	}
+	
+	h3 {
+		font-size: 22px;
+	}
+	
+	 p {
+		font-size: 20px !important;
+	}
+	
+	.all-members .member {
+	   width: 80%;	
+		margin: 0;
+		padding: 0;
+}
+	
+	.member-overlay {
+		display: none;
+	}
+	
+		
+	.member-social {
+		display: none;
+		width: 30%;
+	}
+	
+	.works-menu {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+	flex-wrap: wrap;
+
+}
+	
+	.works-menu li a {
+		font-size: 24px;
+		padding: 20px 40px;		
+	}
+	
+	.blog {
+		display: none;
+	}
+	
+	.clients ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap:wrap;	
+}
+	
+		.clients ul li {
+	margin: 20px;
+}
+	
+	.contacts {
+		width: 100%;
+		float: none;
+	}
+	
+	.form {
+		width: 100%;		
+		margin: 0 auto;
+		margin-left: 80px;
+	}
+	
+	.form textarea {
+		width: 70%;
+		margin-right: 170px !important;	
+	}
+	
+	.form p {
+		display: none;
+	}
+	
+	.copyright {
+		font-size: 20px;
+	}
+}
+
+
+@media (max-width: 1000px)  {
+	.main-menu {
+		width: 100%;
+		padding: 0;
+		padding-top: 30px;		
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.main-menu a {
+		padding: 10px 20px;
+	}
+	
+	h1 {
+		font-size: 35px;
+	}
+	
+	h2 {
+		font-size: 26px;
+	}
+	
+	h3 {
+		font-size: 22px;
+	}
+	
+	 p {
+		font-size: 20px !important;
+	}
+	
+}

@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <Title>StartUp</Title>
+        <Title>StartUpAdaptive</Title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="robots" content="index, follow"> 
-        <meta name="description" content="сниппет: start up">
+        <meta name="description" content="landing page of the startup">
         <meta title="Start Up">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
         <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
         <link href="normalize.css" rel="stylesheet" type="text/css"> 
         <link href="style.css" rel="stylesheet" type="text/css"> 
+		 <link href="media.css" rel="stylesheet" type="text/css"> 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Roboto+Slab&amp;subset=cyrillic" rel="stylesheet"> 
+		<link href="css/main-css/animate.css" rel="stylesheet" media="all" type="text/css"> 
+
 
 <!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,7 +24,7 @@
 <body>
 <div class="wrapper">
     
-        <a href="#home" class="go-up"><i class="arrow up"></i></a>
+ <!--     <a href="#home" class="go-up"><i class="arrow up"></i></a>-->
        
      <!-- HEADER !-->
     <a name="home"></a>
@@ -59,6 +64,7 @@
         <div class="line"></div>
         <h3>We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</h3>
         
+		<div class="all-serv">
         <div class="serv serv-1"> 
             <div class="serv-img serv-img-1"></div>
             <h2>Clean Typography</h2>
@@ -75,7 +81,8 @@
             <div class="serv-img serv-img-3"></div>
             <h2>Expert Support</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
-        </div>         
+        </div> 
+		</div>
     </section>
     
     
@@ -92,6 +99,7 @@
                <p class="column-right">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirtempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos eaccusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Loreipsum dolor sit amet. Lorem ipsum dolor et.</p>
         </div>  
         
+		<section class="all-members">
         <figure class="member">
             <div class="photo"><div class="member-1"></div></div>
             <figcaption>
@@ -156,10 +164,10 @@
                 <a href="#" class="member-social-btn member-fb"></a>
                 <a href="#" class="member-social-btn member-go"></a>
                 <a href="#" class="member-social-btn member-inst"></a>
-            </div> 
-            
+            </div>
         </figure>
-        
+        </section>
+		
    </section>
    </div>
     
@@ -168,40 +176,34 @@
     <section class="our-works">
         <h1>Latest works</h1>
         <div class="line"></div>
-        <div class="works-menu">
-            
-                <a href="#">All</a>
-                <a href="#">Brending</a>
-                <a href="#">Design</a>
-                <a href="#">Development</a>
-                <a href="#">Strategy</a>
-               
-        </div>
+       
+			<ul class="works-menu">
+                <li><a href="#works">All</a></li>
+                <li><a href="#works">Brending</a></li>
+                <li><a href="#works">Design</a></li>
+                <li><a href="#works">Development</a></li>
+                <li><a href="#works">Strategy</a></li>
+			</ul>
         
+        <section class="all-works">
          <!-- Work figure - begin -->
-               <figure class="work">     
-                   
-                    <a href="work-1.html" class="">
-                        
-                        <div class="photo"><div class="work-1"></div></div>   
+               <figure class="work"> 
+                    <a href="work-1.html">
+                        <div class="photo"><div class="work-1"></div></div> 
                     </a>  
-                   
                     <figcaption>
-                       
                         <h2> Hair Dresser</h2>
                         <span>Branding</span>                        
                         <a class="btn btn-work" href="work-1.html">View</a>
                         <div class="work-overlay"> </div>
-
-                    </figcaption>   
-                   
+                    </figcaption> 
                </figure>                    
           <!-- Work figure - end -->
         
           <!-- Work figure - begin -->
                 <figure class="work">                     
                     <a href="work-2.html">                         
-                        <div class="photo"><div class="work-2"></div></div>   
+                        <div class="photo"><div class="work-2"></div></div> 
                     </a>             
                     <figcaption>
                         <h2> Hair Dresser</h2>
@@ -309,7 +311,7 @@
                     </figcaption>                      
                </figure>                    
           <!-- Work figure - end -->
-    
+    	</section>
     </section>
     
     <!-- PROMO - GET IN TOUCH !-->    
@@ -397,13 +399,8 @@
                       <p>”Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum <br>Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.”</p>
                       <span>James Dean, Yahoo Co.</span>
                       </div>
-                    </div>   
-                
- 
-         
+                    </div>  
             </div>
-
-                
             </div>
             </section>
         
@@ -438,7 +435,7 @@
                 <input type="text" name="company" placeholder="Company name" maxlength="40">                
                 <textarea class="textarea" name="message" rows="15" cols="40"> Wright your message</textarea><br>  
                 <button class="btn btn-send" type="submit">Send message</button>
-                <p><span>*</span> We’ll contact you as as possible. We don’t reply on Monday.</p>  
+                <p>* We’ll contact you as as possible. We don’t reply on Monday.</p>  
              </form>              
         </div>
         
@@ -459,6 +456,6 @@
 </div>
     
     <script src="slideshow_script.js"> </script>
-    
+	
 </body>
 </html>
