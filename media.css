@@ -56,27 +56,27 @@
 
 
 .serv {
-		width: 100%;
-		padding: 0;
-		margin: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
 	}
 	
-
-	
 	h1 {
-		font-size: 35px;
+	font-size: 26px;
 	}
 	
 	h2 {
-		font-size: 26px;
+	font-size: 20px;
+		padding: 0 20px;
 	}
 	
 	h3 {
-		font-size: 22px;
+		font-size: 14px;
+		padding: 0 20px;
 	}
 	
 	 p {
-		font-size: 20px !important;
+		font-size: 12px !important;
 	}
 	
 	.all-members .member {
@@ -104,8 +104,20 @@
 }
 	
 	.works-menu li a {
-		font-size: 24px;
+		font-size: 18px;
 		padding: 20px 40px;		
+	}
+	
+	.work figcaption {
+		left: 50px;
+	}
+	
+	.work figcaption span {
+		margin-left: 60px;
+	}
+	
+	.work .btn-work {
+		margin-left: 50px;
 	}
 	
 	.blog {
@@ -122,15 +134,15 @@
 	margin: 20px;
 }
 	
+
+	
 	.contacts {
-		width: 100%;
-		float: none;
+		width: 80%;		
 	}
 	
+	
 	.form {
-		width: 100%;		
-		margin: 0 auto;
-		margin-left: 80px;
+		display: none;
 	}
 	
 	.form textarea {
@@ -159,22 +171,5 @@
 	
 	.main-menu a {
 		padding: 10px 20px;
-	}
-	
-	h1 {
-		font-size: 35px;
-	}
-	
-	h2 {
-		font-size: 26px;
-	}
-	
-	h3 {
-		font-size: 22px;
-	}
-	
-	 p {
-		font-size: 20px !important;
-	}
-	
+	}	
 }
