@@ -14,10 +14,6 @@ body {
     clear: both;
 }
 
-a {
-	display: block;
-}
-
 .wrapper {
     width: 100%;
     margin:0 auto;
